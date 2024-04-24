@@ -1,0 +1,138 @@
+body{
+  background-color: rgb(122, 120, 120);
+  color: white;
+  overflow: hidden;
+}
+h1{
+  text-align: center;
+}
+.todo-wrapper{
+  background-color:rgb(49, 48, 48) ;
+  padding: 2%;
+  width:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 7px black;
+}
+.todo-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.todo-input-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+.todo-input-item label{
+  font-weight:bold;
+  margin-bottom: 1px;
+}
+.todo-input-item input{
+  padding: 8px;
+  border: none;
+  width: 350px;
+}
+.todo-input-item input:focus{
+  outline: 2px solid aqua;
+  outline: none;
+}
+.primaryBtn{
+  background-color:aqua;
+  color: white;
+  border:none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 8px;
+  width: 60px;
+  cursor: pointer;
+}
+.primaryBtn:hover{
+  background-color: aqua;
+} 
+.secondaryBtn{
+  background-color:rgb(64, 67, 67);
+  color: white;
+  border:none;
+  border-radius: 0px;
+  margin-top: 20px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+}
+.active{
+  background-color: aqua;
+}
+.todo-list{
+  display: flex;
+  flex-direction: column;
+}
+.btn-area{
+  margin-bottom: 15px;
+}
+.todo-list-item{
+  background-color:rgb(57, 57, 57) ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 5px rgb(18, 18, 18);
+}
+.todo-list-item h3{
+  font-size: 25px;
+  color: rgb(160, 212, 212);
+  font-weight:500;
+  margin: 0;
+}
+.icon{
+  font-size: 25px;
+  cursor: pointer;
+}
+.icon:hover{
+  color:brown;
+}
+.check-icon{
+  font-size: 25px;
+  margin-left: 10px;
+  color: aqua;
+  cursor: pointer;
+}
+.check-icon:hover{
+  color: rgb(113, 248, 248);
+}
+.edit_wrapper{
+  background-color: rgb(89, 97, 97);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.edit_wrapper input{
+  border: 1px solid lightgray;
+  margin:5px;
+  border-radius: 3px;
+}
+.edit_wrapper .primaryBtn{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 11px;
+  font-size: 16px;
+  width: fit-content;
+
+}
+
+
+
+
+
+
+
