@@ -15,14 +15,19 @@ React Icons.
 
 
 Result
+
+TODO
+
 ![Screenshot (70)](https://github.com/DeepthiMuthineni/React-Todo/assets/149265200/ffea8809-114b-47f3-b41f-e6bfda186877)
 
 
 COMPLETED
+
 ![Screenshot (71)](https://github.com/DeepthiMuthineni/React-Todo/assets/149265200/1b5c76c4-1867-4f78-9bae-de9e9496dbca)
 
 
 UPDATE
+
 ![Screenshot (72)](https://github.com/DeepthiMuthineni/React-Todo/assets/149265200/60ab9352-c325-46eb-878e-06fbe13a06ed)
 
 
